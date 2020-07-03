@@ -1,0 +1,167 @@
+body {
+  margin:auto;
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 90px;
+  width: 100%;
+  background-color: rgba(228, 101, 43, 1);
+  font-size:16px;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-logo {
+  width: 287px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(228, 101, 43, 1);
+}
+
+.header-right:hover {
+  background-color: rgba(17, 112, 159, 1);
+}
+
+.header-right a {
+  line-height: 90px;
+  padding: 0 10px;
+  color: white;
+  transition: all 0.5s;
+  display: block;
+}
+
+
+.sub-main {
+  padding:100px 80px;
+  text-align: center;
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits {
+  height:500px;
+  margin-top:20px;
+}
+
+.benefit {
+  float: left;
+  width: 32%;
+}
+
+.benefit-pict {
+  width:150px;
+  height:150px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color:black;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+.heading h2 {
+  font-weight: bold;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+
+footer {
+  height: 47px;
+  width: 100%;
+  background-color: rgba(228, 101, 43, 1);
+  font-size:12px;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+  background-color: rgba(228, 101, 43, 1);
+  transition: all 0.5s;
+}
+
+.footer-right:hover {
+  background-color: rgba(17, 112, 159, 1);
+}
+
+.footer-right a {
+  line-height: 47px;
+  padding: 0 10px;
+  color: white;
+  display: block;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+
+}
+
+.lesson-icon p {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color:black;
+  text-align: center;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+   animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
